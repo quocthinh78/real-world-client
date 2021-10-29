@@ -13,6 +13,7 @@ import { useContext } from "react";
 import {AuthContext} from "./context/authContext"
 function App() {
   const {user} = useContext(AuthContext)
+  console.log("🚀 ~ file: App.js ~ line 16 ~ App ~ user", user)
     return (
     <Router>
         <Switch>
